@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12886044859",
+    "project_id": "chattingapplication-1412",
+    "storage_bucket": "chattingapplication-1412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12886044859:android:5617a40ba46710e738399e",
+        "android_client_info": {
+          "package_name": "com.basheer.chattingapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWAPDFU-sCZAdjej1eKeuEfzA76QVXchs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

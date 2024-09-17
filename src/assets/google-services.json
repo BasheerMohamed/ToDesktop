@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "271488681793",
+    "firebase_url": "https://chatapp-3234a-default-rtdb.firebaseio.com",
+    "project_id": "chatapp-3234a",
+    "storage_bucket": "chatapp-3234a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271488681793:android:662d8686cece4e405d03c0",
+        "android_client_info": {
+          "package_name": "com.mianasad.chatsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerLq7LuUPTLFbbm80J4ajtKqbv4gzy78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
