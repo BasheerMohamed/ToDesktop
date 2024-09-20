@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         display: ['Rubik', 'sans-serif'],
         body: ['Inter', 'sans-serif']
+      },
+      screens: {
+        'custom-sm': '670px',
       }
     },
   },
