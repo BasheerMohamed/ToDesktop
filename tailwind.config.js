@@ -7,7 +7,7 @@ module.exports = {
         primary: '#3238f2'
       },
       fontFamily: {
-        display: ['Poppins', 'sans-serif'],
+        display: ['Rubik', 'sans-serif'],
         body: ['Inter', 'sans-serif']
       }
     },
