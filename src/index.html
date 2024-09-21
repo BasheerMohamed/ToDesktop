@@ -299,14 +299,19 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="bg-[url('./assets/asset%2031.jpeg')] bg-cover bg-center h-64 mx-6 mt-20 rounded-xl">
-                
-        </div> -->
+        <!-- Build Vedio Section -->
+         <div class="max-w-[1330px] mx-auto mt-20 px-6">
+            <div class="bg-gray-100 bg-[url('./assets/asset%2031.jpeg')] bg-cover bg-center border border-gray-200 px-24 py-8 rounded-xl">
+                <div class="max-w-3xl mx-auto w-full h-full bg-white/80 rounded-lg">
+                    <img src="./assets/asset 30.png" alt="" class="inset-0">
+                </div>
+            </div>
+         </div>
         <!-- Step By Step -->
          <div id="steps" class="px-6 py-12 max-w-[1350px] mt-16 mx-auto lg:px-8 lg:mt-32">
             <h2 class="text-5xl font-medium mb-14">How it works</h2>
             <div id="step-1" class="relative rounded-xl bg-gray-50 border px-6 py-8 flex flex-col lg:flex-row lg:justify-between">
-                <div class="absolute bg-gradient-to-b from-gray-50 via-transparent to-transparent bottom-0 left-0 right-0 -z-0">
+                <div class="hidden absolute bg-gradient-to-b from-gray-50 via-transparent to-transparent bottom-0 left-0 right-0 -z-0">
                     <img src="./assets/grid.png" alt="" class="w-full h-full">
                 </div>
                 <div class="flex flex-col lg:w-1/2 z-10">
@@ -316,19 +321,19 @@
                     <ul class="grid grid-cols-2 gap-2 mt-10">
                         <li class="flex items-start gap-4">
                             <i class="fa-solid fa-check text-gray-500"></i>
-                            <a href="#" class="text-lg border-b border-black border-opacity-35 hover:border-opacity-80">Multiple windows</a>
+                            <a href="#" class="text-lg underline decoration-gray-400 hover:decoration-gray-800 decoration-1 [text-underline-offset:4px]">Multiple windows</a>
                         </li>
                         <li class="flex  gap-4">
                             <i class="fa-solid fa-check text-gray-500"></i>
-                            <a href="#" class="text-lg border-b border-black border-opacity-35 hover:border-opacity-80">Customisable menus</a>
+                            <a href="#" class="text-lg underline decoration-gray-400 hover:decoration-gray-800 decoration-1 [text-underline-offset:4px]">Customisable menus</a>
                         </li>
                         <li class="flex items-start gap-4">
                             <i class="fa-solid fa-check text-gray-500"></i>
-                            <a href="#" class="text-lg border-b border-black border-opacity-35 hover:border-opacity-80">Menubar/tray menus</a>
+                            <a href="#" class="text-lg underline decoration-gray-400 hover:decoration-gray-800 decoration-1 [text-underline-offset:4px]">Menubar/tray menus</a>
                         </li>
                         <li class="flex items-start gap-4">
                             <i class="fa-solid fa-check text-gray-500"></i>
-                            <a href="#" class="text-lg border-b border-black border-opacity-35 hover:border-opacity-80">Launch on startup</a>
+                            <a href="#" class="text-lg underline decoration-gray-400 hover:decoration-gray-800 decoration-1 [text-underline-offset:4px]">Launch on startup</a>
                         </li>
                         <li class="flex items-start gap-4">
                             <i class="fa-solid fa-check text-gray-500"></i>
@@ -349,6 +354,28 @@
         
         <div class="h-screen"></div> 
     </main>
+    <footer class="container max-w-[1340px]">
+        <div class="rounded-2xl border border-gray-200 bg-gray-50 flex flex-col lg:flex-row-reverse items-center px-8 pt-10 lg:pt-12 pb-12 gap-8">
+            <div class="flex flex-col items-center justify-center lg:flex-row gap-10">
+                <a href="#" class="font-light font-display text-xl text-gray-500 hover:text-gray-900">Documentation</a>
+                <div class="flex gap-11 text-xl">
+                    <a href="#" class="text-gray-500 hover:text-gray-900"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <a href="#" id="brand" class="flex gap-1 items-center flex-1">
+                <img class="object-cover max-w-12 max-h-12" src="./assets/asset 0.png" alt="Logo">
+                <span class="text-lg font-medium font-display">ToDesktop</span>
+            </a>
+        </div>
+        <div id="sub-footer" class="flex flex-col gap-4 items-center justify-center mt-12">
+            <div class="flex gap-2">
+                <img src="./assets/asset 54.svg" alt="y-combinator" class="w-3">
+                <p class="text-sm font-display text-gray-500">A Y Combinator company.</p>
+            </div>
+            <p class="text-sm text-gray-400">© 2024 ToDesktop, Inc. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 <script src="./script.js"></script>
 </html>
